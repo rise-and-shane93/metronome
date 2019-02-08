@@ -1,0 +1,21 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#metronome {
+    width: 400px;
+    height: 250px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttons {
+    margin: 1rem;
+}
