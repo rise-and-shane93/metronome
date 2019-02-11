@@ -7,16 +7,16 @@ stop.disabled = true;
 
 //stop.disabled = 'true';
 
-num.addEventListener('keydown', function(e) {
-    if (e.keyCode >= 48 && e.keyCode <= 57) {
-        console.log('hey');
-    } else {
-        num.value = '';
-        alert('please type a number');
-        num.value = '';
-    }
-    console.log(e.keyCode);
-});
+// num.addEventListener('keydown', function(e) {
+//     if (e.keyCode >= 48 && e.keyCode <= 57) {
+//         console.log('hey');
+//     } else {
+//         num.value = '';
+//         alert('please type a number');
+//         num.value = '';
+//     }
+//     console.log(e.keyCode);
+// });
 
 var beats = null;
 
